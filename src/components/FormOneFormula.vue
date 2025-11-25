@@ -27,6 +27,12 @@
 
 <style scoped>
 .mathml {
+  width: 100%;
+
+  /* TODO: Фикс. */
+  min-height: 50px;
+
+  overflow-x: auto;
   font-size: 18px;
 }
 </style>

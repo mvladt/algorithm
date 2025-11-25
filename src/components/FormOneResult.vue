@@ -1,18 +1,19 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { useFormOneState } from "../composables/useFormOneState.ts";
+import { numberToString } from "../utils.ts";
 
 const { state } = useFormOneState();
 
 const result = computed(() => {
-  return (state.Флв / state.Чн) * 10000;
+  return numberToString((state.Флв / state.Чн) * 10000);
 });
 </script>
 
 <template>
   <p>
     Результат:
-    {{ Number(result).toLocaleString("ru-RU", { maximumFractionDigits: 6 }) }}
+    {{ result }}
   </p>
 </template>
 

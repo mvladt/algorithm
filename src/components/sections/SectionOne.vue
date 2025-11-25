@@ -6,7 +6,7 @@ import FormOne from "../forms/FormOne.vue";
 
 <template>
   <section>
-    <h2>Секция 1</h2>
+    <h2>Часть 1</h2>
     <p>
       На основе всей совокупности полученных результатов разработан научно
       обоснованный алгоритм расчета врачебного кадрового прогноза, с учетом
@@ -24,9 +24,9 @@ import FormOne from "../forms/FormOne.vue";
       ЦП.
     </p>
 
-    <h3>Форма 1</h3>
+    <h3>Формула 1</h3>
     <FormOneFormula />
-    <h4>Рассчёт</h4>
+    <h4>Расчёт</h4>
     <FormOne />
     <FormOneResult />
   </section>

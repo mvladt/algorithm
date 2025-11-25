@@ -10,11 +10,22 @@ h3,
 h4,
 h5 {
   text-align: center;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 30px;
 }
 
 body {
-  margin: auto;
-  max-width: 900px;
+  margin: 3rem auto;
+  max-width: 1024px;
 }
 
 @media (max-width: 1024px) {

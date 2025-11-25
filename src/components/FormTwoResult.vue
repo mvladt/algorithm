@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { useFormTwotate } from "../composables/useFormTwoState.ts";
+import { numberToString } from "../utils.ts";
 
 const { state } = useFormTwotate();
 
 const result = computed(() => {
-  return (
+  return numberToString(
     ((state.АбсЧВ_за_ГП -
       state.АбсЧВ_СКУ -
       state.АбсЧВ_УТМ +
@@ -13,16 +14,13 @@ const result = computed(() => {
       state.АбсЧВ_ВП +
       state.АбсЧВ_ПТМ) /
       state.ЧислНас) *
-    10000
+      10000
   );
 });
 </script>
 
 <template>
-  <p>
-    Результат:
-    {{ Number(result).toLocaleString("ru-RU", { maximumFractionDigits: 6 }) }}
-  </p>
+  <p>Результат: {{ result }}</p>
 </template>
 
 <style scoped></style>

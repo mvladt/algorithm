@@ -6,11 +6,11 @@ import FormTwoResult from "../FormTwoResult.vue";
 
 <template>
   <section>
-    <h2>Секция 2</h2>
-    <p>Начальная точка отсчета прогноза (базовый) 2023 год</p>
-    <h3>Форма 2</h3>
+    <h2>Часть 2</h2>
+    <p>Начальная точка отсчета прогноза (базовый) 2023 год.</p>
+    <h3>Формула 2</h3>
     <FormTwoFormula />
-    <h4>Рассчёт</h4>
+    <h4>Расчёт</h4>
     <FormTwo />
     <FormTwoResult />
     <p>
