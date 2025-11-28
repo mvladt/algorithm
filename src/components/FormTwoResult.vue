@@ -20,7 +20,11 @@ const result = computed(() => {
 </script>
 
 <template>
-  <p>Результат: {{ result }}</p>
+  <p class="result">Результат: {{ result }}</p>
 </template>
 
-<style scoped></style>
+<style scoped>
+.result {
+  font-size: large;
+}
+</style>
