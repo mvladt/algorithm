@@ -8,7 +8,7 @@
       </caption>
       <thead>
         <tr>
-          <th></th>
+          <th>Год</th>
           <th>До&nbsp;36</th>
           <th>36&nbsp;―&nbsp;45</th>
           <th>46&nbsp;―&nbsp;50</th>

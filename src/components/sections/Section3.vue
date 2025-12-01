@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Table1 from "../tables/Table1.vue";
-import TableX from "../tables/TableX.vue";
+import Table2 from "../tables/Table2.vue";
+import Table3 from "../tables/Table3.vue";
 </script>
 
 <template>
@@ -11,10 +12,13 @@ import TableX from "../tables/TableX.vue";
     </h3>
 
     <h4>Исходные данные</h4>
-    <Table1 />
+    <Table1 style="margin-bottom: 2rem" />
 
     <h4>Итоговый расчёт</h4>
-    <TableX />
+
+    <Table2 style="margin-bottom: 2rem" />
+
+    <Table3 style="margin-bottom: 2rem" />
 
     <p>
       Расчет позволяет научно обосновать долгосрочную потребность субъекта в
